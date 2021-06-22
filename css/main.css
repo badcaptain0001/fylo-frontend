@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #1c2431;
+  padding-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .logo {
+  width: 6em;
+  padding: 1em 1em;
+}
+
+nav .primary-menu {
+  list-style: none;
+  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.3em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav a {
+  padding: 0em 1em;
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.hero {
+  background: #1c2431;
+  text-align: center;
+}
+
+.hero .intro {
+  width: 70%;
+  position: relative;
+  z-index: 1;
+  top: 45px;
+}
+
+.hero .curvy-mobile {
+  display: none;
+  width: 100%;
+  position: relative;
+  top: 5px;
+}
+
+.hero .curvy-desk {
+  width: 100%;
+  position: relative;
+  top: 5px;
+}
+
+.features {
+  background-color: #181f2a;
+  text-align: center;
+}
+
+.features .intro-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.9em;
+  color: white;
+  margin: 0px;
+  position: relative;
+  top: -65px;
+}
+
+.features .sub-content {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: -55px;
+}
+
+.features .intro-button {
+  padding: 1em 3.5em;
+  border-radius: 5em;
+  background: #65e2d9;
+  border: 0px;
+  color: white;
+  font-family: "Raleway";
+  font-weight: 700;
+  position: relative;
+  top: -50px;
+}
+
+.features .feature-image {
+  width: 4em;
+  margin-bottom: 1em;
+}
+
+.features .main-features {
+  margin-top: 5em;
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+.features .feature-headiing {
+  color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+.features .feature-content {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 15.5px;
+  padding: 0em 2em;
+  padding-bottom: 7em;
+}
+
+.information {
+  background-color: #181f2a;
+  margin-top: -20px;
+}
+
+.information .information-illustration {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information .right-info-col {
+  margin-left: 2em;
+  margin-right: 1em;
+  color: white;
+  padding-bottom: 7em;
+}
+
+.information h1 {
+  font-family: "Raleway";
+  font-size: 1.3em;
+}
+
+.information p {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.information a {
+  color: #65e2d9;
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.information .arrow {
+  margin-left: 5px;
+  width: 18px;
+  position: relative;
+  top: 4px;
+}
+
+.information .border {
+  display: block;
+  width: 157px;
+  height: 1.5px;
+  background: #65e2d9;
+  margin-top: 4px;
+}
+
+.team-members-list {
+  background-color: #181f2a;
+  color: white;
+}
+
+.team-members-list .team-member {
+  padding: 2em 3em;
+  list-style: none;
+}
+
+.team-members-list .tm {
+  background-color: #1c2431;
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+
+.team-members-list .discription {
+  padding: 2em;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.team-members-list .profile {
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 2em;
+  float: left;
+  margin-right: 1em;
+  margin-top: 0.25em;
+}
+
+.team-members-list .member-name {
+  margin: 0px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.team-members-list .member-designation {
+  margin: 0px;
+  padding-top: 0.3em;
+  padding-bottom: 2em;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.team-members-list .blockquote {
+  position: relative;
+  top: 62px;
+  left: 60px;
+  width: 26px;
+}
+
+.footer {
+  background-color: #0b1523;
+  color: white;
+  font-family: "Open Sans";
+}
+
+.footer .footer-logo {
+  margin: 2em;
+  width: 10em;
+  padding-top: 150px;
+}
+
+.footer .icon {
+  float: left;
+  margin-left: 1em;
+}
+
+.footer .footer-discription {
+  margin-left: 3em;
+  margin-right: 1em;
+}
+
+.footer .navigation-links {
+  list-style: none;
+  line-height: 2em;
+}
+
+.footer .special-links {
+  list-style: none;
+  line-height: 2em;
+}
+
+.footer .div2 {
+  padding-bottom: 30px;
+}
+
+.footer .div5 {
+  text-align: center;
+  padding: 5em;
+}
+
+.footer .fab.fa-facebook-f {
+  margin-right: 2em;
+}
+
+.footer .fab.fa-twitter {
+  margin-right: 2em;
+}
+
+.float {
+  text-align: center;
+  background-color: #1c2431;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 0.5em;
+  top: 130px;
+}
+
+.float-heading {
+  padding-top: 1em;
+  font-family: "Raleway";
+  text-transform: capitalize;
+}
+
+.float-subheading {
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding: 1em;
+}
+
+#email {
+  padding: 1.2em 1em;
+  width: 74%;
+  border-radius: 5em;
+  border: 0px;
+  font-family: "Open Sans";
+}
+
+#submit {
+  margin-top: 15px;
+  padding: 1em 1em;
+  width: 76%;
+  border-radius: 5em;
+  border: 0px;
+  color: white;
+  background: #65e2d9;
+  font-family: "raleway";
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: unset;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .navbar {
+    padding-top: 2em;
+  }
+  .navbar .logo {
+    margin-left: 2em;
+  }
+  .primary-menu {
+    margin-right: 5em;
+  }
+  .primary-menu a {
+    padding: 0em 4em;
+  }
+  .hero .intro {
+    width: 35%;
+  }
+  .features .intro-heading {
+    font-size: 36px;
+    margin: 0 10em;
+    top: -360px;
+    line-height: 1em;
+  }
+  .features .sub-content {
+    font-size: 17px;
+    margin: 3em 30em;
+    top: -350px;
+  }
+  .features .intro-button {
+    top: -360px;
+    width: 16%;
+  }
+  .features .main-features {
+    margin: 0 15em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    grid-gap: 25px 150px;
+    top: -170px;
+    position: relative;
+  }
+  .sec {
+    position: relative;
+    top: -25px;
+  }
+  .information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .left-info-col {
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .information .information-illustration {
+    width: 75%;
+    margin-left: 7em;
+    margin-right: 2em;
+  }
+  .information .right-info-col {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 5em;
+    margin-right: 15em;
+  }
+  .team-members-list .team-member {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 6em;
+  }
+  .team-members-list .tm {
+    margin: 0 1em;
+    z-index: 1;
+  }
+  .team-members-list .blockquote {
+    top: 125px;
+    width: 50px;
+  }
+  .float {
+    width: 55%;
+  }
+  .parent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 15em;
+    margin: 0 4em;
+  }
+  .footer .footer-logo {
+    padding: 0;
+  }
+  .div1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .div3 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  .div4 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 4 / 2 / 5;
+  }
+  .div5 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 5 / 2 / 6;
+  }
+  .footer .footer-discription {
+    margin-top: 0;
+  }
+  .footer .navigation-links {
+    margin-top: 0px;
+  }
+  .footer .special-links {
+    margin-top: 0px;
+  }
+  .footer .div5 {
+    padding: 0%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
